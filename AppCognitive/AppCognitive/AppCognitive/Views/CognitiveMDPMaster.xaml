@@ -43,14 +43,14 @@
                             <ColumnDefinition Width="*"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <Image
-                            WidthRequest="60"
-                            HeightRequest="60"
+                            WidthRequest="35"
+                            HeightRequest="35"
                             Source="{Binding Icon}"></Image>
                         <Label
                             Grid.Column="1"
                             VerticalOptions="Center"
                             TextColor="{StaticResource MenuFontColor}"
-                            FontSize="18"
+                            FontSize="Medium"
                             Text="{Binding Title}"></Label>
                     </Grid>
                 </ViewCell>
