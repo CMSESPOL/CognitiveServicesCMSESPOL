@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:infra="clr-namespace:AppCognitive.Infrastructure"
+             x:Class="AppCognitive.App">
+	<Application.Resources>
+
+        <ResourceDictionary>
+            <!--Rerencia: https://color.adobe.com/Visual-Narrative-A-color-theme-3493242/?showPublished=true-->
+            <!--Colores generales-->
+            <Color x:Key="MainColor">#2BACB5</Color>
+            <Color x:Key="FontColor">#3B3B3B</Color>
+            <Color x:Key="AccentColor1">#E84D5B</Color>
+            <Color x:Key="AccentColor2">#B4CCB9</Color>
+            <Color x:Key="BackgroundColor">#F9F9F9</Color>
+
+            <!-- Colores de menu-->
+            <Color x:Key="MenuColor">#3B3B3B</Color>
+            <Color x:Key="MenuFontColor">#FFFFFF</Color>
+
+            <!--Locator-->
+            <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
+        </ResourceDictionary>
+
+	</Application.Resources>
+</Application>

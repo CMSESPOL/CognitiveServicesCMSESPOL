@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCognitive.Views.CognitiveMDPDetail"
+             Title="Significado"
+             BackgroundColor="{StaticResource BackgroundColor}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="icon.png"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <Label Text="Imachá es una palabra quichua, significa ¿qué será?, destinada como nombre de la aplicación Cognitive Service. Porque es la pregunta que te plantearás al inicio de la aplicación =)"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               FontSize="Medium"
+               TextColor="{StaticResource FontColor}"/>
+</ContentPage>
