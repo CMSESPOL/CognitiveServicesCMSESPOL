@@ -6,7 +6,8 @@
              BackgroundColor="{StaticResource BackgroundColor}">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="¡Disfrute la experiencia!"
+            <Label x:Name="emotion"
+                Text="¡Disfrute la experiencia!"
                    FontSize="Medium"
                    TextColor="{StaticResource FontColor}"
                    HorizontalOptions="Center"/>
