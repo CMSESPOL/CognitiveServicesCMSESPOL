@@ -4,7 +4,13 @@
              x:Class="AppCognitive.ViewModel.SelectPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Label x:Name="emotion"
+                Text="¡Disfrute la experiencia!"
+                   FontSize="Medium"
+                   TextColor="{StaticResource FontColor}"
+                   HorizontalOptions="Center"/>
+            <Image x:Name="image"/>
+            <Image x:Name="result"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -20,37 +20,8 @@ namespace AppCognitive.Views
         public NewCapturePage()
         {
             InitializeComponent();
-
+            emotionClient = new EmotionServiceClient(Constants.EmotionApiKey, Constants.AuthenticationTokenEndpoint);
             Capture();
-
-            //captura.Clicked += async (sender, args) =>
-            //{
-
-            //    if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
-            //    {
-            //        await DisplayAlert("No Camera", ":( No camera avaialble.", "OK");
-            //        return;
-            //    }
-
-            //    var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
-            //    {
-            //        PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
-            //        Directory = "Sample",
-            //        Name = "test.jpg"
-            //    });
-
-            //    if (file == null)
-            //        return;
-
-            //    await DisplayAlert("File Location", file.Path, "OK");
-
-            //    image.Source = ImageSource.FromStream(() =>
-            //    {
-            //        var stream = file.GetStream();
-            //        file.Dispose();
-            //        return stream;
-            //    });
-            //};
         }
 
         MediaFile photo;
@@ -65,6 +36,7 @@ namespace AppCognitive.Views
                 photo = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                 {
                     Name = "emotion.jpg",
+                    Directory = "Celula",
                     PhotoSize = PhotoSize.Small
                 });
 
@@ -89,8 +61,10 @@ namespace AppCognitive.Views
                             // Emotions detected are happiness, sadness, surprise, anger, fear, contempt, disgust, or neutral.
                             emotion.Text = emotionResult.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key;
                         }
+                        else
+                            emotion.Text = "No emotion Detected";
                         photo.Dispose();
-                    }                    
+                    }
                 }
             }
             catch (Exception ex)

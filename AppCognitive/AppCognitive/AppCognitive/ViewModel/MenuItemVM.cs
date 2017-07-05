@@ -26,6 +26,9 @@ namespace AppCognitive.ViewModel
                 case "UsPage":
                     App.Navigator.PushAsync(new UsPage());
                     break;
+                case "SelectPage":
+                    App.Navigator.PushAsync(new SelectPage());
+                    break;
                 default:
                     break;
             }

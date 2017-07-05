@@ -11,11 +11,8 @@
                    FontSize="Medium"
                    TextColor="{StaticResource FontColor}"
                    HorizontalOptions="Center"/>
-            <Button x:Name="captura"
-                    Text="Foto"
-                    BackgroundColor="{StaticResource MainColor}"
-                    TextColor="{StaticResource FontColor}"/>
             <Image x:Name="image"/>
+            <Image x:Name="result"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
