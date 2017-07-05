@@ -6,15 +6,13 @@
              BackgroundColor="{StaticResource BackgroundColor}">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="¡Disfrute la experiencia!"
+            <Label x:Name="emotion"
+                Text="¡Disfrute la experiencia!"
                    FontSize="Medium"
                    TextColor="{StaticResource FontColor}"
                    HorizontalOptions="Center"/>
-            <Button x:Name="captura"
-                    Text="Foto"
-                    BackgroundColor="{StaticResource MainColor}"
-                    TextColor="{StaticResource FontColor}"/>
             <Image x:Name="image"/>
+            <Image x:Name="result"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

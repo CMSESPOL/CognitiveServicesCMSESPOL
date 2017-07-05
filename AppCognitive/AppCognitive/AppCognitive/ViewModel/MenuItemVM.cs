@@ -1,10 +1,5 @@
 ﻿using AppCognitive.Views;
 using GalaSoft.MvvmLight.Command;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace AppCognitive.ViewModel
@@ -25,15 +20,20 @@ namespace AppCognitive.ViewModel
             App.Master.IsPresented = false;
             switch (PageName)
             {
-                case "NewCapturePage":
+                case "NewCapturePage":                    
                     App.Navigator.PushAsync(new NewCapturePage());
                     break;
                 case "UsPage":
                     App.Navigator.PushAsync(new UsPage());
                     break;
+                case "SelectPage":
+                    App.Navigator.PushAsync(new SelectPage());
+                    break;
                 default:
                     break;
             }
         }
+
+        
     }
 }
