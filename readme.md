@@ -1,1 +1,2 @@
-Cognitive Services - Feria de Clubes 2017
+# AppCognitiveComplete
+Proyecto de servicios cognitivos para las plataformas Android, ios y Windows  
