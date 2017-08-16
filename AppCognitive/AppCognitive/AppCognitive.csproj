@@ -146,6 +146,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\CognitiveMDP.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -198,9 +199,12 @@
     <None Include="Resources\surprised.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\angry-mad.png" />
-    <Content Include="Resources\big-smile.png" />
+    <Content Include="Resources\amazed.png" />
+    <Content Include="Resources\angrymad.png" />
+    <Content Include="Resources\bigsmile.png" />
     <Content Include="Resources\crying.png" />
+    <Content Include="Resources\rolleyes.png" />
+    <Content Include="Resources\unamusedface.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

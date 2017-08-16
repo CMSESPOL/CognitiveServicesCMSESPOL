@@ -56,7 +56,7 @@ namespace AppCognitive.Views
                         if (emotionResult.Any())
                         {
                             // Emotions detected are happiness, sadness, surprise, anger, fear, contempt, disgust, or neutral.
-                            emotion.Text = TranslateEmotions.emotiones(emotionResult.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key);
+                            emotion.Text = TranslateEmotions.emotiones(emotionResult.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key,result);
                         }
                         else
                             emotion.Text = "No emotion Detected";

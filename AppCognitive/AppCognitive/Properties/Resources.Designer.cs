@@ -61,44 +61,44 @@ namespace AppCognitive.Properties {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        public static byte[] angry_mad {
-            get {
-                object obj = ResourceManager.GetObject("angry_mad", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
+        ///// <summary>
+        /////   Looks up a localized resource of type System.Byte[].
+        ///// </summary>
+        //public static byte[] angrymad {
+        //    get {
+        //        object obj = ResourceManager.GetObject("angrymad", resourceCulture);
+        //        return ((byte[])(obj));
+        //    }
+        //}
         
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        public static byte[] big_smile {
-            get {
-                object obj = ResourceManager.GetObject("big_smile", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
+        ///// <summary>
+        /////   Looks up a localized resource of type System.Byte[].
+        ///// </summary>
+        //public static byte[] bigsmile {
+        //    get {
+        //        object obj = ResourceManager.GetObject("bigsmile", resourceCulture);
+        //        return ((byte[])(obj));
+        //    }
+        //}
         
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        public static byte[] crying {
-            get {
-                object obj = ResourceManager.GetObject("crying", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
+        ///// <summary>
+        /////   Looks up a localized resource of type System.Byte[].
+        ///// </summary>
+        //public static byte[] crying {
+        //    get {
+        //        object obj = ResourceManager.GetObject("crying", resourceCulture);
+        //        return ((byte[])(obj));
+        //    }
+        //}
         
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        public static byte[] surprised {
-            get {
-                object obj = ResourceManager.GetObject("surprised", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
+        ///// <summary>
+        /////   Looks up a localized resource of type System.Byte[].
+        ///// </summary>
+        //public static byte[] surprised {
+        //    get {
+        //        object obj = ResourceManager.GetObject("surprised", resourceCulture);
+        //        return ((byte[])(obj));
+        //    }
+        //}
     }
 }

@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="angry_mad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\angry-mad.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="angrymad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angrymad.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="big_smile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\big-smile.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bigsmile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bigsmile.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="crying" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\crying.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
