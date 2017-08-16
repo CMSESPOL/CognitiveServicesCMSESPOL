@@ -6,8 +6,11 @@
              BackgroundColor="{StaticResource BackgroundColor}">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Célula Estudiantil Microsoft (Detallar)"
+            
+            <Label Text="Célula Microsoft Espol es un club estudiantil multidisciplinario que tiene como objetivo consolidar a sus miembros en tecnologías de microsoft y afines. Tenemos el honor de presentarles nuestra aplicación Imachá que es un proyecto cuya estructura goza de los beneficios del Microsoft Congitive Services que posee múltiples recursos para el procesamiento de imágenes entre ellos un servicio de reconocimiento facial, con el cual Imachá puede determina tu estado de animo y generar un mensaje personalizado acompañado de un respectivo emoji que identifica tu emoción al momento de capturar una foto tuya."
                    FontSize="Medium"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Center"
                    TextColor="{StaticResource FontColor}"/>
         </StackLayout>
     </ContentPage.Content>

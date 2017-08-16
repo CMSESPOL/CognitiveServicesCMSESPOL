@@ -1,4 +1,5 @@
-﻿using Microsoft.ProjectOxford.Common.Contract;
+﻿using AppCognitive.Model;
+using Microsoft.ProjectOxford.Common.Contract;
 using Microsoft.ProjectOxford.Emotion;
 using Plugin.Media;
 using System;
@@ -31,7 +32,7 @@ namespace AppCognitive.ViewModel
 
             var photo = await CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
             {
-                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium
+                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Small
             });
 
 
@@ -49,7 +50,7 @@ namespace AppCognitive.ViewModel
                         if (emotionResult.Any())
                         {
                             // Emotions detected are happiness, sadness, surprise, anger, fear, contempt, disgust, or neutral.
-                            emotion.Text = emotionResult.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key;
+                            emotion.Text = TranslateEmotions.emotiones(emotionResult.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key,result);
                         }
                         else
                             emotion.Text = "No emotion Detected";
